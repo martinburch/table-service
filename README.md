@@ -4,7 +4,7 @@ Have you seen [Flatware](https://github.com/jsoma/flatware) for [Tabletop.js](ht
 
 ## The server-side python script ...
 
-Table-service is a **lightweight installation** -- if you've already got wsgi for python, just copy over one file, and your service is ready. You can point any number of Google Spreadsheets to this script, and it will cache all their sheets on Amazon S3.
+Table-service is a **lightweight installation** -- if you've already got wsgi for python, just copy over two files, and your service is ready. You can point any number of Google Spreadsheets to this script, and it will cache all their sheets on Amazon S3.
 
 ## ... plus a script for your Spreadsheets.
 
