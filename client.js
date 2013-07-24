@@ -1,6 +1,8 @@
 // Function to cache spreadsheet to s3 with table-service server
-// Call on-demand or however you like
-function cacheChanges() {
+// Automatically called on edit, but change the function name
+// to call it whenever you want
+
+function onEdit() {
   var key = SpreadsheetApp.getActiveSpreadsheet().getId();
   
      var payload =
