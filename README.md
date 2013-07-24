@@ -1,6 +1,6 @@
 # table-service
 
-Have you seen [Flatware](https://github.com/jsoma/flatware) for [Tabletop.js](https://github.com/jsoma/tabletop)? Table-service is like that, except on-demand. Table-service comes in two parts:
+Have you seen [Flatware](https://github.com/jsoma/flatware) for [Tabletop.js](https://github.com/jsoma/tabletop)? (cf. [mhkeller's gdoc-to-s3](https://github.com/mhkeller/gdoc-to-s3)) Table-service is like that, except on-demand. Table-service comes in two parts:
 
 ## The server-side python script ...
 
