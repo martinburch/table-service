@@ -17,3 +17,19 @@ function cacheChanges() {
    UrlFetchApp.fetch("http://example.com/cgi-bin/table-service/server.py", options);
   
 }
+
+// This cache may save a "short" version of your spreadsheet's key
+// You can check it with a menu option
+
+function onOpen() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var menuEntries = [ {name: "Get key...", functionName: "getCode"} ];
+  ss.addMenu("Key", menuEntries);
+}
+
+function getCode() {
+  var key = SpreadsheetApp.getActiveSpreadsheet().getId();
+  var msg = key;
+  
+  Browser.msgBox(msg);
+}
